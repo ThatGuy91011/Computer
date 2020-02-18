@@ -6,5 +6,5 @@ std::string things[];
 
 std::string Keywords::inputKW()
 {
-	things[0] = "Help-Displays this help screen";
+	things[0] = "Help-Displays this help screen"; 
 }
