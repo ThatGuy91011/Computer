@@ -123,13 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Keywords.cpp" />
-    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="CommandShell.cpp" />
+    <ClCompile Include="CPUMemory.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Keywords.h" />
-    <ClInclude Include="Memory.h" />
+    <ClInclude Include="CommandShell.h" />
+    <ClInclude Include="CPUMemory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

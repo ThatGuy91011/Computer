@@ -18,18 +18,18 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Memory.cpp">
+    <ClCompile Include="CPUMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Keywords.cpp">
+    <ClCompile Include="CommandShell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Memory.h">
+    <ClInclude Include="CPUMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Keywords.h">
+    <ClInclude Include="CommandShell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
