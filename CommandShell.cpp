@@ -2,11 +2,13 @@
 #include <iostream>
 void CommandShell::CommandIn(std::string command)
 {
+	//Sends the user input to an input function
 	CommandOut(command);
 }
 
 void CommandShell::CommandOut(std::string command)
 {
+	//Lines 12-35 are the different commands a user can use
 	if (command == "Help" || command == "help")
 	{
 		DisplayHelp();
@@ -33,6 +35,7 @@ void CommandShell::CommandOut(std::string command)
 	}
 }
 
+//Help menu
 void CommandShell::DisplayHelp()
 {
 	std::cout << "Help Menu:" << std::endl;
